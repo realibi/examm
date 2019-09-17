@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/StyleSheet.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<script>
+    $(document).ready(function() {
+        $("#profileBtn").html(localStorage.getItem("userLogin"));
+        getResumeInfo(localStorage.getItem("resumeId"));
+    });
+</script>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <img class="navbar-brand" src="Styles/logo.png" alt=""></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Меню</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Соискателям</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Работодателям</a>
+                </li>
+                <li class="nav-item right">
+                    <button class="btn btn-outline-secondary" type="button" id="profileBtn">Вход</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header     
+    <button id="applyBtn" class="btn btn-outline-secondary" type="button">Откликнуться</button></br>
+    -->
+    <div class="formResume">
+        <div class="vacancyTitle">
+            <h2 class="titleContent" style="font-weight: 700" id="fullName"></h2>
+            <button id="applyBtn" onclick="inviteToJob(localStorage.getItem('resumeOwnerId'), localStorage.getItem('vacancyId'))" class="btn btn-outline-secondary" type="button">Пригласить на собеседование</button></br>
+        </div>
+        <div class="contactInfo">
+            <p>
+                <span data-qa="vacancy-view-raw-address">
+              <span class="bloko-metro-pin" style="background: #CD0505;"></span>
+                </span>
+                <span data-qa="vacancy-view-raw-address">
+                <span class="bloko-metro-pin" style="background: #CD0505;"></span>
+                <h6><span style="color:#4b7ab8" id="email"></span> — предпочитаемый способ связи</h6>
+                </span>
+            </p>
+        </div>
+        <div class="vacancyTitle">
+            <div>
+                <h5 class="titleContent" id="desiredPosition"></h5>
+                <h6 class="titleContent" id="desiredSalary"></h6>
+            </div>
+        </div>
+
+        <div class="vacancyTitle">
+            <div>
+                <h5 class="titleContent" style="color:gray">Обо мне</h5>
+            </div>
+            <span style="font-size: 15px" id="description"></span>
+        </div>
+
+        <div class="vacancyTitle">
+            <div>
+                <h5 class="titleContent" style="color:gray">Пройденные курсы</h5>
+            </div>
+            <span style="font-size: 15px" id="learnedCourses"></span>
+        </div>
+
+        <div class="vacancyTitle">
+            <div>
+                <h5 class="titleContent" style="color:gray">Ключевые навыки</h5>
+            </div>
+            <span style="font-size: 15px" id="skills"></span>
+        </div>
+
+        <div class="vacancyTitle">
+            <div>
+                <h5 class="titleContent" style="color:gray">Образование</h5>
+            </div>
+            <span style="font-size: 15px" id="highEducations"></span>
+        </div>
+
+        <div class="vacancyTitle">
+            <div>
+                <h5 class="titleContent" style="color:gray">Знание языков</h5>
+            </div>
+            <span style="font-size: 15px" id="languagesKnowledge"></span>
+        </div>
+
+        <div class="vacancyTitle">
+        </div>
+
+        <br/><br/><br/>
+
+    </div>
+    <div>
+        <!-- Footer -->
+        <footer class="page-footer bg-dark font-small blue">
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="#"> hh.ru</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

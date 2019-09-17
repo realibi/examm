@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Styles/StyleSheet.css" />
+
+
+
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            LoadHeaderInfo();
+            setCitiesValues();
+        });
+    </script>
+
+    <div class="bgRes"></div>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <img class="navbar-brand" src="Styles/logo.png" alt=""></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Меню</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Соискателям</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Работодателям</a>
+                </li>
+                <li class="nav-item right">
+                    <button class="btn btn-outline-secondary" type="button" id="profileBtn">Вход</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+
+
+    <form class="was-validated">
+
+        <div class="form-group">
+            <label for="uname">ФИО:</label>
+            <input type="text" class="form-control" id="fullName" placeholder="Введите заголовок" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Город:</label>
+            <select class="form-control" id="city" placeholder="Введите заголовок" required></select>
+        </div>
+
+        <div class="form-group">
+            <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="ableToRelocate">
+                <label class="custom-control-label" for="ableToRelocate">Возможность переезда</label>
+            </div>
+            <!-- НУЖЕН ЧЕКБОКС -->
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Желаемая должность:</label>
+            <input type="text" class="form-control" id="desiredPosition" placeholder="Введите заголовок" required>
+        </div>
+
+        <div class="form-group">
+            <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="hasExperience">
+                <label class="custom-control-label" for="hasExperience">Опыт работы</label>
+            </div>
+            <!-- НУЖЕН ЧЕКБОКС -->
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Желаемая зарплата:</label>
+            <input type="text" class="form-control" id="desiredSalary" placeholder="Введите заголовок" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Высшее образование:</label>
+            <input type="text" class="form-control" id="highEducations" placeholder="Введите заголовок" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Особые навыки:</label>
+            <input type="text" class="form-control" id="skills" placeholder="Введите заголовок" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">О себе:</label>
+            <input type="text" class="form-control" id="description" placeholder="Введите заголовок" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Уровень изучанных языков:</label>
+            <input type="text" class="form-control" id="languagesKnowledge" placeholder="Введите заголовок" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Пройденные курсы:</label>
+            <input type="text" class="form-control" id="learnedCourses" placeholder="Введите заголовок" required>
+        </div>
+
+        <!-- <div class="form-group form-check">
+            <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="blablabla">
+                <label class="custom-control-label" for="blablabla">Я соглашаюсь с <a href="">блаблабла</a></label>
+            </div>
+        </div> -->
+        <input type="button" value="Оставить резюме" id="btnn"  onclick="createResume()"></input>
+        <!-- Реализовать метод! -->
+    </form>
+
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

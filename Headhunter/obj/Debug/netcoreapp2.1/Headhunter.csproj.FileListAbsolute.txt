@@ -1,0 +1,112 @@
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.deps.json
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.json
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.dev.json
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csprojAssemblyReference.cache
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csproj.CoreCompileInputs.cache
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cache
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cs
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfoInputs.cache
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfo.cs
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorTargetAssemblyInfo.cache
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\дуйсеналиева\source\repos\Headhunter\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.deps.json
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.json
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.dev.json
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csprojAssemblyReference.cache
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csproj.CoreCompileInputs.cache
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cache
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cs
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfoInputs.cache
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfo.cs
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorTargetAssemblyInfo.cache
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\дуйсеналиева\Desktop\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.deps.json
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.json
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.dev.json
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csprojAssemblyReference.cache
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csproj.CoreCompileInputs.cache
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cache
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cs
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfoInputs.cache
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfo.cs
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorTargetAssemblyInfo.cache
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\reall\OneDrive\Рабочий стол\Headhunter-master\Headhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.deps.json
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.json
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.dev.json
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csprojAssemblyReference.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csproj.CoreCompileInputs.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cs
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfoInputs.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfo.cs
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorTargetAssemblyInfo.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.deps.json
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.json
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.dev.json
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csprojAssemblyReference.cache
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csproj.CoreCompileInputs.cache
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cache
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cs
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfoInputs.cache
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfo.cs
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorTargetAssemblyInfo.cache
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\Лебедевв\Desktop\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.deps.json
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.json
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.dev.json
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csprojAssemblyReference.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csproj.CoreCompileInputs.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cs
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfoInputs.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfo.cs
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorTargetAssemblyInfo.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\CustomHeadhunter-master\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.deps.json
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.json
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.dev.json
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csprojAssemblyReference.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csproj.CoreCompileInputs.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cs
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfoInputs.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfo.cs
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorTargetAssemblyInfo.cache
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\дуйсеналиева\Desktop\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.deps.json
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.json
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.runtimeconfig.dev.json
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\bin\Debug\netcoreapp2.1\Headhunter.pdb
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csprojAssemblyReference.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.csproj.CoreCompileInputs.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorAssemblyInfo.cs
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfoInputs.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.AssemblyInfo.cs
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.RazorTargetAssemblyInfo.cache
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.dll
+C:\Users\reall\OneDrive\Рабочий стол\CustomHeadhunter-master\Headhunter\obj\Debug\netcoreapp2.1\Headhunter.pdb

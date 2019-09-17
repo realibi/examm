@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="Styles/StyleSheet.css" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        LoadHeaderInfo();
+
+        function createVacancy() {
+            $.ajax({
+                url: "http://localhost:5000/api/vacancy",
+                contentType: "application/json",
+                type: "POST",
+                data: JSON.stringify({
+                        title: $("#uname").val(),
+                        salary: $("#salary").val(),
+                        companyName: $("#companyName").val(),
+                        companyAddress: $("#adress").val(),
+                        duties: $("#duty").val(),
+                        conditions: $("#extention").val(),
+                        ownerLogin: localStorage.getItem("userLogin")
+                    })
+                    //success: callback
+            });
+        }
+
+        $("#btnVacancy").click(function() {
+            createVacancy();
+        });
+    </script>
+    <div class="bgRes"></div>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <img class="navbar-brand" src="Styles/logo.png" alt=""></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Меню</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Соискателям</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Работодателям</a>
+                </li>
+                <li class="nav-item right">
+                    <button class="btn btn-outline-secondary" type="button" id="profileBtn">Вход</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+
+
+    <form class="was-validated">
+
+        <div class="form-group">
+            <label for="uname">Заголовок:</label>
+            <input type="text" class="form-control" id="uname" placeholder="Введите заголовок" required>
+        </div>
+
+        <div class="form-group">
+            <label for="salary">Зарплата:</label>
+            <input type="text" class="form-control" id="salary" placeholder="Введите зарплату" required>
+        </div>
+
+        <div class="form-group">
+            <label for="companyName">Название компании:</label>
+            <input type="text" class="form-control" id="companyName" placeholder="Введите название компании" required>
+        </div>
+
+        <div class="form-group">
+            <label for="adress">Адрес компании</label>
+            <input type="text" class="form-control" id="adress" placeholder="Введите адрес компании" required>
+        </div>
+
+        <div class="form-group">
+            <label for="duty">Обязанности:</label>
+            <input type="text" class="form-control" id="duty" placeholder="Введите обязанности" required>
+        </div>
+
+        <div class="form-group">
+            <label for="extention">Условия работы</label>
+            <input type="text" class="form-control" id="extention" placeholder="Введите условия работы" required>
+        </div>
+
+        <div class="form-group form-check">
+            <div class="custom-control custom-checkbox mb-3">
+                <input type="checkbox" class="custom-control-input" id="blablabla" name="example1">
+                <label class="custom-control-label" for="blablabla">Я соглашаюсь с <a href="">блаблабла</a></label>
+            </div>
+        </div>
+        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+        <button id="btnVacancy" class="btn btn-outline-secondary" type="button" onclick="createVacancy()">Оставить вакансию</button>
+    </form>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+
+
+</body>
+
+</html>

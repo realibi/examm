@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/StyleSheet.css" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <img class="navbar-brand" src="Styles/logo.png" alt=""></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="IndexASSP.html">Соискателям</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="IndexASSPResume.html">Работодателям</a>
+                </li>
+                <li class="nav-item right">
+                    <button id="profileBtn" class="btn btn-outline-secondary" type="button">Вход</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- topMenu -->
+    <div class="topMenu">
+        <form action="">
+            <div class="input-group">
+                <input type="text" class="form-control" aria-label="Default" id="searchInput">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="searchBtn">Поиск</button>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="knopka">
+            <button class="btn btn-outline-secondary" type="button" onclick="goToNewResumesPage()">Оставить резюме</button>
+            <button class="btn btn-outline-secondary" type="button" onclick="goToNewVacancyPage()">Оставить вакансию</button>
+
+            <button class="btn btn-outline-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" type="button">Уведомления <span id="notifications" class="badge badge-light">0</span></button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            </div>
+
+
+        </div>
+
+        <div class="row middle-row">
+            <div class="col-sm-8">
+                <div class="bg-text">
+                    <h1>Работа найдется для любого</h1>
+                </div>
+            </div>
+
+            <div class="col-sm-4 middle-line">
+                <div class="statistics">
+
+                    <div class="resume">
+                        <div class="value" id="resume-value"></div>
+                        <div>Резюме</div>
+                    </div>
+
+                    <div class="vacancy">
+                        <div class="value" id="vacancy-value"></div>
+                        <div>Вакансий</div>
+                    </div>
+
+                    <div class="company">
+                        <div class="value" id="company-value"></div>
+                        <div>Пользователей</div>
+                    </div>
+
+                </div>
+                <!-- /statistics -->
+            </div>
+            <!-- /col-sm-6 -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /topMenu -->
+
+    <!-- topMenu -->
+
+    <!-- Main offers -->
+    <div class="row">
+        <div class="col-sm-8" id="vacanciesBlock">
+        </div>
+
+        <div class="col-sm-4">
+            <ul class="list border p-3">
+                Здесь может быть ваша реклама
+                <li><a href="">1XBET</a></li>
+                <li><a href="">OLIMP</a></li>
+                <li><a href="">azino777</a></li>
+                <li><a href="">WIX</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main offers -->
+
+    <!-- Footer -->
+    <footer class="page-footer bg-dark font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="#"> hh.ru</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            LoadHeaderInfo();
+
+            $.ajax({
+                url: "http://localhost:5000/api/user/notifications/" + localStorage.getItem("userLogin"),
+                contentType: "application/json",
+                method: "GET",
+                success: function(data) {
+                    $("#notifications").html(data.length);
+                    data.forEach(function(item, i, data) {
+                        if (item.isSeen == false) {
+                            $(".dropdown-menu").append("<div class='dropdown-item' onclick='seenotification(" + item.id + ")'>" + item.notificationText + "</div>");
+                        }
+                    });
+                }
+            });
+
+            $.ajax({
+                url: "http://localhost:5000/api/resume",
+                contentType: "application/json",
+                method: "GET",
+                success: function(data) {
+                    data.forEach(function(item, i, data) {
+                        $("#vacanciesBlock").append("<div class='media border p-2 card'><div class='media-body card-body'><h5 id='companyName'>" + item.desiredPosition + "<small><i id='salary'> " + item.desiredSalary + " тенге</i></small></h5><p id='description'>" + item.description + "</p><button class='btn btn-outline-secondary stretched-link' onclick='goToResume(" + item.id + ")'>Открыть резюме</button></div></div>");
+                    });
+                }
+            });
+
+            $.ajax({
+                url: "http://localhost:5000/api/vacancy/headerInfo",
+                contentType: "application/json",
+                method: "GET",
+                success: function(data) {
+                    $("#resume-value").append(data[0]); //кол-во резюме
+                    $("#vacancy-value").append(data[1]); //кол-во вакансии
+                    $("#company-value").append(data[2]); //кол-во пользователей
+                }
+            });
+        });
+
+        $("#searchBtn").click(function() {
+            $.ajax({
+                url: "http://localhost:5000/api/resume/search/" + $("#searchInput").val(),
+                contentType: "application/json",
+                method: "GET",
+                success: function(data) {
+                    $("#vacanciesBlock").html(" ");
+                    data.forEach(function(item, i, data) {
+                        $("#vacanciesBlock").append("<div class='media border p-2 card'><div class='media-body card-body'><h5 id='companyName'>" + item.desiredPosition + "<small><i id='salary'> " + item.desiredSalary + " тенге</i></small></h5><p id='description'>" + item.description + "</p><button class='btn btn-outline-secondary stretched-link' onclick='goToResume(" + item.id + ")'>Открыть резюме</button></div></div>");
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,471 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('9651.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: "MyWebFont" !important;
+    font-size: 20px !important;
+    background-color: white;
+}
+
+.bgRes {
+    position: fixed;
+    background-image: url("123.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+#btnn {
+    margin-bottom: 20px;
+    color: white;
+    background-color: #0c2f5a;
+    border: 2px solid #ced4da;
+}
+
+.bg-dark {
+    background-color: #222222 !important;
+}
+
+form {
+    width: 60%;
+    float: left;
+    /* height: 80px; */
+}
+
+.knopka {
+    position: relative;
+    float: left;
+    height: 80px;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.knopka button {
+    margin-left: 20px;
+}
+
+.input-group {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 24px !important;
+}
+
+.topMenu {
+    background-image: url("fone.png");
+    background-position: left;
+    height: 300px;
+    width: 100%;
+}
+
+.input-group-append button {
+    border-color: #ced4da;
+    background-color: white;
+}
+
+/* .input-group-append {
+    z-index: 0;
+} */
+
+.knopka button {
+    color: white;
+    border: 2px solid #ced4da;
+}
+
+.right {
+    right: 2%;
+    position: absolute;
+    color: white;
+    border-color: white;
+}
+
+.right button {
+    color: white;
+    background-color: #0c2f5a;
+    border: 2px solid #ced4da;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: #4c5d6f;
+    background-color: white;
+}
+
+.media {
+    margin: 20px;
+}
+
+.media:hover {
+    box-shadow: -3px 3px 20px 2px;
+}
+
+.media img {
+    width: 60px;
+    height: 60px;
+}
+
+.list {
+    padding: 15px;
+    margin: 20px 20px 20px 0;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.row {
+    margin-right: 0;
+    width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    width: 50px;
+    height: 50px;
+}
+
+.bg-text {
+    position: relative;
+    float: left;
+    color: white;
+    margin: 20px;
+}
+
+.middle-row {
+    float: left;
+    position: relative;
+    width: 100%;
+    color: white;
+}
+
+.middle-line {
+    border-left: 2px solid white;
+}
+
+.custom-select {
+    font-size: 18px;
+}
+
+.was-validated {
+    background-color: #dee2e6;
+    border-radius: 10px;
+    border: 2px solid #222222;
+    padding: 20px;
+    font-size: 22px;
+    margin: 20px;
+    margin-left: 20%;
+}
+
+.stretched-link {
+    border: 1px solid #dee2e6;
+    color: white;
+    background: #0c2f5a;
+}
+
+.stretched-link:hover {
+    border: 1px solid black;
+    color: white;
+    background: #4b7ab8;
+}
+
+.media-body a {
+    display: inline-block;
+    right: 0;
+}
+
+.media-body h5 {
+    display: inline-block;
+}
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 120px;
+    /* Place the button at the bottom of the page */
+    right: 50px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #0c2f5a;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+#applyBtn {
+    display: inline-block;
+    color: white;
+    background-color: #0c2f5a;
+    border: 2px solid #ced4da;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+}
+
+#applyBtn:hover {
+    color: #4c5d6f;
+    background-color: white;
+}
+
+.titleContent {
+    display: inline-block;
+}
+
+.vacancyTitle {
+    margin-top: 30px;
+}
+
+ul li {
+    margin-top: 10px;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.lineBreak {
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 20px;
+}
+
+.bullet {
+    margin-left: 0;
+    list-style: none;
+    counter-reset: li;
+}
+
+.bullet li {
+    position: relative;
+    margin-bottom: 1.5em;
+    border: 3px solid #CADFCF;
+    padding: 0.6em;
+    border-radius: 4px;
+    background: #FEFEFE;
+    color: #231F20;
+}
+
+.bullet li:before {
+    position: absolute;
+    top: -0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #DCC24B;
+    background: #FEFEFE;
+    border-radius: 50%;
+    counter-increment: li;
+    content: counter(li);
+}
+
+.formVacancy {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.respondedUsers {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.input-group input[type=text] {
+    width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-size: 26px;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  }
+
+  /* When the input field gets focus, change its width to 100% */
+  .input-group input[type=text]:focus {
+    width: 80%;
+  }
+
+.custom-control-label {
+    color: black !important;
+}
+
+#customCheck {
+    background-color: black !important;
+}
+
+.form-group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/* Выпадающий список резюме */
+
+
+/* The Overlay (background) */
+
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    /* Black fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+
+/* Position the content inside the overlay */
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    /* 25% from the top */
+    width: 100%;
+    /* 100% width */
+    text-align: center;
+    /* Centered text/links */
+    margin-top: 30px;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+
+/* The navigation links inside the overlay */
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    /* Display block instead of inline */
+    transition: 0.3s;
+    /* Transition effects on hover (color) */
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+/* Position the close button (top right corner) */
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+/* Выпадающий список резюме */
+
+.editButton {
+    font-size: 15px;
+    text-decoration: none;
+    color: #4b7ab8;
+    display: inline-block;
+}
+
+.contactInfo {
+    border-width: 0px 0px 1px 0px;
+    border-color: lightgrey;
+    border-style: solid;
+}
+
+.formResume {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+}
+
+.titleContent {
+    font-weight: 600;
+    display: inline-block;
+}

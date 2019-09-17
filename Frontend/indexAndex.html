@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <link rel="stylesheet" href="Styles/style.css">
+    <script type="text/javascript" src="script.js"></script>
+    </script>
+    <title></title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="menu">
+        <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">SignIn</button>
+        <button class="tablink" onclick="openPage('News', this, 'green')">SignUp</button>
+
+        <div id="Home" class="tabcontent">
+            <form method="post" class="container">
+
+                <label for="userLoginSignIn">Login</label>
+                <input type="text" placeholder="Enter Login" id="userLoginSignIn" name="userLoginSignIn" required>
+
+                <label for="userPasswordSignIn">Password</label>
+                <input type="password" placeholder="Enter Password" id="userPasswordSignIn" name="userPasswordSignIn" required>
+
+                <a class="a" href="#">Forgot password?</a>
+
+                <button id="signInButton" class="btnLogin">Sign In</button>
+
+            </form>
+        </div>
+
+        <div id="News" class="tabcontent">
+            <form method="post" class="container">
+                <label for="userLoginSignUp">FullName</label>
+                <input type="text" placeholder="Enter Full Name" id="fullNameSignUp" name="fullNameSignUp" required>
+
+                <label for="userLoginSignUp">Login</label>
+                <input type="text" placeholder="Enter Login" id="userLoginSignUp" name="userLoginSignUp" required>
+
+                <label for="userPasswordSignUp">Password</label>
+                <input type="password" placeholder="Enter Password" id="userPasswordSignUp" name="userPasswordSignUp" required>
+
+                <button type="submit" id="signUpButton" class="btnSignUp">Sign up</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $("#signInButton").click(function(e) {
+            e.preventDefault();
+            var login = $("#userLoginSignIn").val();
+            var password = $("#userPasswordSignIn").val();
+
+            signIn(login, password);
+        });
+
+        $("#signUpButton").click(function(e) {
+            e.preventDefault();
+            var fullName = $("#fullNameSignUp").val();
+            var login = $("#userLoginSignUp").val();
+            var password = $("#userPasswordSignUp").val();
+
+            signUp(fullName, login, password);
+        });
+    </script>
+</body>
+
+</html>

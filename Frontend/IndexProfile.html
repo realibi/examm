@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/StyleSheet.css" />
+    <link rel="stylesheet" href="Styles/Profile.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://i.hh.kz/css/globals/pages/__bloko-imports_7e61bb70dbdfeb9c13e08b445bd21bce.css">
+    <link rel="stylesheet" href="https://i.hh.kz/css/globals/pages/__globals_241ba4ea9105734b6cf73d4baf69a24d.css">
+
+    <script type="text/javascript">
+        function setField(fieldId, field2Id, buttonId) {
+            field1 = document.getElementById(fieldId);
+            field2 = document.getElementById(field2Id);
+
+            if (field1.style.display == "block" && field2.style.display == "none") {
+                field1.style.display = "none";
+                field2.style.display = "block";
+                field2.value = field1.value;
+            } else {
+                field1.style.display = "block";
+                field2.style.display = "none";
+
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <img class="navbar-brand" src="Styles/logo.png" alt=""></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Меню</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Соискателям</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Работодателям</a>
+                </li>
+                <li class="nav-item right">
+                    <button class="btn btn-outline-secondary" type="button">Вход</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+
+    <div class="main">
+        <div class="profile-row-content">
+            <div class="settings-title profile-bloko-column">
+                Настройки
+            </div>
+            <div class="lineBreak"></div>
+            <div class="settings">
+                <div class="settings-block">
+                    <span class="settings-text">Логин: </span>
+                    <span class="settings-text" id="login"></span>
+                    <input type="text" class="set-param settings-text" id="loginInput" />
+                </div>
+                <div class="settings-block">
+                    <span class="settings-text">Пароль</span>
+                    <span class="settings-text" id="password"></span>
+                    <input type="text" class="set-param settings-text" id="passwordInput" />
+                </div>
+                <div class="settings-block">
+                    <span class="settings-text">Полное имя</span>
+                    <span class="settings-text" id="fullname"></span>
+                    <input type="text" class="set-param settings-text" id="fullnameInput" value="" />
+                </div>
+            </div>
+        </div>
+        <div class="delete-button">
+            <a href="#">Удаление аккаунта</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer bg-dark font-small blue">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="#"> hh.ru</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
