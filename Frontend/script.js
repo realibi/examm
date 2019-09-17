@@ -47,7 +47,7 @@ function openNav() {
         success: function(data) {
             data.forEach(function(item, i, data) {
                 $(".overlay-content").html(" ");
-                $(".overlay-content").append("<a onclick='ApplyToVacancy(" + item.id + ")'>" + item.desiredPosition + ". З/П: " + item.desiredSalary + " тенге." + "</a>");
+              $(".overlay-content").append("<a style='background:white; opacity:0.6;text-align:center;' onclick='ApplyToVacancy(" + item.id + ")'>" + item.desiredPosition + ". З/П: " + item.desiredSalary + " тенге." + "</a>");
             });
         }
     });
